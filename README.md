@@ -61,7 +61,7 @@ graph TD
     InputLoop -->|Message| Invoke[Invoke Workflow]
     
     subgraph LangGraph Execution
-        Start((START)) --> ChatNode[Chat Node\n(Call OpenAI)]
+        Start((START)) --> ChatNode["Chat Node\n(Call OpenAI)"]
         ChatNode --> End((END))
     end
     
